@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+      <script type="text/javascript" charset="utf-8" src="jquery-1.7.2.min.js"></script>
+
+      <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+      <script type="text/javascript" charset="utf-8" src="js/WikitudePlugin.js"></script>
+      <script type="text/javascript" charset="utf-8" src="js/FacebookConnect.js"></script>
+
+      <script type="text/javascript" src="js/index.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+
+    </head>
+    <body>
+
+      <div class="app">
+	<!-- <div id="deviceready"> -->
+	<!--     <p class="status pending blink">Connecting to Device</p> -->
+	<!--     <p class="status complete blink hide">Device is Ready</p> -->
+	<!-- </div> -->
+      </div>
+
+
+      <div id="me">My World</div>
+
+      <p>
+	<a href="page1.html">PAGE1</a>
+      </p>
+
+
+      <script type="text/javascript">
+      
+      $("#me").click(function() {
+
+	  app.initialize();
+      });
+      
+      </script>
+
+    </body>
+  </html>
